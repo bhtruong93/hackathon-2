@@ -1,0 +1,31 @@
+{
+  "name": "hackathon-2",
+  "version": "1.0.0",
+  "description": "hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhtruong93/hackathon-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhtruong93/hackathon-2/issues"
+  },
+  "homepage": "https://github.com/bhtruong93/hackathon-2#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "jquery": "^2.1.4",
+    "nodemon": "^1.8.1",
+    "passport": "^0.3.0",
+    "path": "^0.12.7",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "request": "^2.65.0"
+  }
+}
