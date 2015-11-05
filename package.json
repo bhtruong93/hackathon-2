@@ -4,6 +4,7 @@
   "description": "hackathon",
   "main": "index.js",
   "scripts": {
+    "start": "node_modules/.bin/gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,13 +20,20 @@
   "dependencies": {
     "body-parser": "^1.14.1",
     "bootstrap": "^3.3.5",
+    "browserify": "^12.0.1",
     "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
     "jquery": "^2.1.4",
     "nodemon": "^1.8.1",
     "passport": "^0.3.0",
     "path": "^0.12.7",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
-    "request": "^2.65.0"
+    "reactify": "^1.1.1",
+    "request": "^2.65.0",
+    "require": "^2.4.20",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.0"
   }
 }
