@@ -1,0 +1,97 @@
+/*#container {
+  height: 400px;
+  width: 400px;
+}*/
+/*
+body {
+	background-color: black;
+}*/
+
+.instaPic {
+  margin-top: 5px;
+}
+
+.instaPic:hover {
+  transition: 1s;
+  width: 25%;
+  height:auto;
+  cursor: pointer;
+
+}
+
+#container1 {
+  margin: auto;
+  text-align: center;
+  padding-top: 5px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  z-index: 1;
+}
+
+#container2 {
+  margin: auto;
+  padding-top: 5px;
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 50%;
+  z-index: 0;
+}
+
+
+.names {
+  font-weight: bold;
+  display:inline-block;
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 3px;
+  /*background-color: white;
+  position: relative;
+  top: 10px;
+  padding: 5px 10px 5px 10px;*/
+}
+
+.close {
+  display: none;
+}
+
+.close:focus {
+  display: block;
+}
+
+.bigImg {
+  position: absolute;
+  margin: auto;
+
+}
+
+.instaNames {
+  width: 50px;
+  /*height: auto;*/
+  display: inline-block;
+}
+
+.message {
+  background-color: rgba(128, 0, 128, 0.31);
+  padding: 5px;
+  border-radius: 3px;
+  width: 575px;
+
+  /*background-color: white;
+  padding: 5px 10px 5px 10px;*/
+}
+
+.twitPic {
+  margin: 3px;
+  border-radius: 3px;
+}
+
+button {
+  position: relative;
+  margin: auto;
+  width: 95%;
+  height: 50px;
+  margin-bottom: 10px;
+}
